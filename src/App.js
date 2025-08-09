@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/App.css";
 import PostItem from "./components/PostItem";
 import PostList from "./components/PostList";
+import LoadingComponent from "./components/LoadingComponent";
 
 function App() {
   const [posts, setPosts] = React.useState([
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <PostList posts={posts} title={"Список постов 1"} />
+      <LoadingComponent />
     </div>
   );
 }
