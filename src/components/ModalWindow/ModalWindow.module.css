@@ -1,0 +1,39 @@
+.surfaceModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    h1,
+    p {
+        font-family: sans-serif;
+    }
+
+    .modal {
+        width: auto;
+        height: auto;
+        background-color: rgb(230, 230, 230);
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        max-width: 800px;
+        min-height: 500px;
+
+        img {
+            width: auto;
+            height: auto;
+        }
+
+        .info {
+            p:nth-child(3) {
+
+            }
+        }
+    }
+}
